@@ -1,8 +1,8 @@
 <main>
     <ul>
-        <li><a onclick={go_home}>home</a></li>
-        <li><a onclick={go_view1}>view1</a></li>
-        <li><a onclick={go_view2}>view2</a></li>
+        <li><button onclick={go_home}>home</button></li>
+        <li><button onclick={go_view1}>view1</button></li>
+        <li><button onclick={go_view2}>view2</button></li>
 
     </ul>
 
