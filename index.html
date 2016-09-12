@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <main></main>
+
+
+    <script src="./js/riot+compiler.min.js"></script>
+    <script src="./js/rg-router.min.js"></script>
+    <script src="tags/main.tag" type="riot/tag"></script>
+    <script src="tags/view1.tag" type="riot/tag"></script>
+    <script src="tags/view2.tag" type="riot/tag"></script>
+    <script src="tags/home.tag" type="riot/tag"></script>
+
+
+    <script>
+        riot.compile(function() {
+            riot.mount('*')
+            rg.router.hash = ''
+            rg.router.start()
+        })
+    </script>
+</body>
+</html>
